@@ -506,7 +506,7 @@ return CurrentCol
 ; Left or Right Windows Key + Enter
 ; windows+enter:: run (the  )
 
-;#Enter:: run C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.11.3471.0_x64__8wekyb3d8bbwe\WindowsTerminal.exe
+;cmd
 #Enter:: run C:\windows\system32\cmd.exe
 
 ;dolphin filemanager
@@ -519,6 +519,7 @@ return CurrentCol
 
 
 ;windows alt menu
+shift win = right menu
 ;!#:: run C:\Program Files\WindowsApps\41190Michaeptuch.InkWorkspacePro_1.7.0.0_x64__xrzatjdgvnbtg\InkWorkspace.Wpf\InkWorkspace.Wpf.exe
 
 ;administrator cmd
@@ -530,13 +531,6 @@ return CurrentCol
 ;close windows
 ;[close windows action]
 #c:: Send !{f4}
-
-
-
-
-
-
-
 
 
 
@@ -725,5 +719,11 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;
 ;
 ;
-
+; file structure is important so C:/bin or D:/bin
+;press windows shift s and 1-5 for how many seconds you want it to record.
+#!s1 = exec 
+#!s2 = exec 
+#!s3 = exec D:/bin
+#!s4 = exec D:/bin
+#!s5 = exec D:/bin/
 
