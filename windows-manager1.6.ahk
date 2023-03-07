@@ -723,7 +723,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;press windows shift s and 1-5 for how many seconds you want it to record.
 #!s1 = exec 
 #!s2 = exec 
-#!s3 = exec D:/bin
-#!s4 = exec D:/bin
+#!s3 = exec D:/bin/
+#!s4 = exec D:/bin/
 #!s5 = exec D:/bin/
 
